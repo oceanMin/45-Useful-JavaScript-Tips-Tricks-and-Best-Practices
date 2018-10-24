@@ -443,7 +443,7 @@ clone(Array).prototype ;  // []
 
 ```js
 function escapeHTML(text) {  
-    var replacements= {"<": "<", ">": ">","&": "&", "\"": """};                      
+    var replacements= {"<": "<", ">": ">","&": "&", "\"": """};
     return text.replace(/[<>&"]/g, function(character) {  
         return replacements[character];  
     }); 
